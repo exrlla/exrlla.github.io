@@ -1,5 +1,25 @@
 <script>
   import SEO from '$lib/components/SEO.svelte';
+// Modal Script for displaying images in larger width
+  // var modal = document.getElementById("img-modal");
+
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  // var img = document.getElementById("modal-img");
+  // var modalImg = document.getElementById("img01");
+
+  // img.onclick = function(){
+  //   modal.style.display = "block";
+  //   modalImg.src = this.src;
+  // }
+
+  // Get the <span> element that closes the modal
+  // var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks on <span> (x), close the modal
+  // span.onclick = function() { 
+  //   modal.style.display = "none";
+// }
+
 </script>
 
 <SEO title="Wellapp -- Ellie's Page" />
@@ -8,7 +28,7 @@
 <div class="spacing-home-container">
   <!-- Back Button -->
 <div class="flex">
-  <a href="../design.html">
+  <a href="/design">
     <h4 class="text-style-back">↙ go back to designs! ✧ ˚ · .</h4>
   </a>
 </div>
@@ -16,7 +36,7 @@
 <div class="mx-auto grid w-130 grid-cols-1 items-center gap-y-10 gap-x-8 lg:max-w-9xl lg:grid-cols-1 px-10">
   <!-- Image -->
   <div class="grid sm:gap-6 lg:gap-8 mt-10">
-    <img src="../assets/Wellapp.png" alt="Wellapp" class="add-border rounded-lg bg-gray-100">
+    <img src="/assets/Wellapp.png" alt="Wellapp" class="add-border rounded-lg bg-gray-100">
   </div>
   <div>
     <h2 class="text-3xl header-main-text tracking-tight text-gray-900 sm:text-4xl">Wellapp</h2>
@@ -83,7 +103,7 @@
         We looked at other interactive systems that are similar to our application. We looked at the strengths and weaknesses 
         of each application and how we can improve on them.
     <div class="">
-      <img src="../assets/Wellapp_1.png" alt="Competitor Analysis of other websites similar to Wellapp" class="mt-10 mb-10">
+      <img src="/assets/Wellapp_1.png" alt="Competitor Analysis of other websites similar to Wellapp" class="mt-10 mb-10">
     </div>
     <p class="reg-text-main mt-4 text-gray-500">
       With this app, we intend to show an improvement in engagement and consistency when compared to other apps of the same genre. 
@@ -111,14 +131,13 @@
             </li>
             <li>What are common themes in popular applications in terms of typography, colors, and layout?</li>
           </ul> 
-        </p>
         <p class="reg-text-main text-gray-500" id="bolder-text">
           Below is the figma mockup where I put all of my research and ideas together! Keeping this in mind, this is the flow that I decided to go with!
         </p>
     </div>
 
 
-    <img class="modal-style img-style mb-10 mt-10" id="modal-img" src="../assets/wellapp_mockup.png" alt="Key Features of Wellapp">
+    <img class="modal-style img-style mb-10 mt-10" id="modal-img" src="/assets/wellapp_mockup.png" alt="Key Features of Wellapp">
       <!-- The Modals -->
       <div id="img-modal" class="modal">
         <span class="close">&times;</span>
@@ -155,20 +174,20 @@
     <p class="reg-text-main mt-4 text-gray-500"> 
       These are some of the base case designs for Wellapp!
     </p>
-    <img class="img-style" src="../assets/wellapp_homecase.png" alt="Key Features of Wellapp">
+    <img class="img-style" src="/assets/wellapp_homecase.png" alt="Key Features of Wellapp">
     
     
     <h5 class="a tracking-tight sm:text-3xl">key screens ✧･ﾟ</h5>
     <p class="reg-text-main mt-4 text-gray-500"> 
       These designs contain the calendar view, alerts, and profile. 
     </p>
-    <img class="img-style mb-10" src="../assets/wellapp_views.png" alt="Key Features of Wellapp">
+    <img class="img-style mb-10" src="/assets/wellapp_views.png" alt="Key Features of Wellapp">
     
     <h5 class="a tracking-tight sm:text-3xl">additional modals ✧･ﾟ</h5>
     <p class="reg-text-main mt-4 text-gray-500"> 
       These are some of the modals of Wellapp where users can login, and change their email.
     </p>
-    <img class="img-style mb-10" src="../assets/wellapp_modals.png" alt="Key Features of Wellapp">
+    <img class="img-style mb-10" src="/assets/wellapp_modals.png" alt="Key Features of Wellapp">
 
     <!-- Design Process: Reflections -->
     <h3 class="text-3xl header-main-text tracking-tight text-gray-900 sm:text-4xl">Reflections</h3>
@@ -178,31 +197,10 @@
         <li>TIME is needed for a lot of design work alongside all the interviews. Time allocation is a big lesson for me!  <br/><br/> </li>
         <li>Getting feedback should be a main priortiy in a future case study to improve as much as podsible. </li>
       </ul> 
-    </p>
 </div>
 <div class="mt-10 flex">
-<a href="../design.html">
+<a href="/design">
   <h4 class="text-style-back">↙ designs ✧ ˚ · .</h4>
 </a>
 </div>
-<script>
-// Modal Script for displaying images in larger width
-var modal = document.getElementById("img-modal");
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("modal-img");
-var modalImg = document.getElementById("img01");
-
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-  modal.style.display = "none";
-}
-</script>
+</div>

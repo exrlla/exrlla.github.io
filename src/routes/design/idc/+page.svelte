@@ -6,53 +6,41 @@
   */
 
   // Modal Script for displaying images in larger width
-  var modal = document.getElementById("img-modal");
+  // var modal = document.getElementById("img-modal");
   
   // Get the image and insert it inside the modal - use its "alt" text as a caption
-  var img = document.getElementById("modal-img");
-  var img2 = document.getElementById("modal-img2");
-  var modalImg = document.getElementById("img01");
+  // var img = document.getElementById("modal-img");
+  // var img2 = document.getElementById("modal-img2");
+  // var modalImg = document.getElementById("img01");
   
-  img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-  }
+  // img.onclick = function(){
+  //   modal.style.display = "block";
+  //   modalImg.src = this.src;
+  // }
 
-  img2.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
+  // img2.onclick = function(){
+  //   modal.style.display = "block";
+  //   modalImg.src = this.src;
   
-  }
+  // }
   
   // Get the <span> element that closes the modal
-  var span = document.getElementsByClassName("close")[0];
+  // var span = document.getElementsByClassName("close")[0];
   
   // When the user clicks on <span> (x), close the modal
-  span.onclick = function() { 
-    modal.style.display = "none";
-  }
+  // span.onclick = function() { 
+  //   modal.style.display = "none";
+  // }
 </script>
 
 <SEO title="Illinois Design Consulting — Ellie's Page" />
-
-
-<header class="header-main">
-  <h1 class="header-main-text"><a class="hvr-float" href="../index.html">Ellie Popoca</a></h1>
-  <nav>
-    <ul class="nav-main">
-      <li><a class="nav-main-text hvr-float" href="about.html">About</a></li>
-      <li><a class="nav-main-text hvr-float" href="https://drive.google.com/file/d/1_I-QbZ20EibbFUCOnsnILqTBThV9O_Nm/view?usp=sharing">Resume</a></li>
-      <li><a class="nav-main-text hvr-float" href="fun.html">Fun</a></li>
-    </ul>
-  </nav>
-</header>
 
 
 
 <!-- Illinois Design Consulting -->
 <div class="spacing-home-container">
   <div class="flex">
-    <a href="../design.html">
+    <a href="/design">
       <h4 class="text-style-back">↙ go back to designs! ✧ ˚ · .</h4>
     </a>
   </div>
@@ -60,12 +48,12 @@
   <div class="mx-auto grid w-130 grid-cols-1 items-center gap-y-10 gap-x-8 lg:max-w-9xl lg:grid-cols-1 px-10" >
     <!-- Image -->
     <div class="grid sm:gap-6 lg:gap-8 mt-10">
-      <img src="../assets/idc.png" alt="Illinois Design Consulting" class="add-border rounded-lg">
-      <!-- <img src="./assets/idc-screen.png" alt="Illinois Design Consulting" class="rounded-lg bg-gray-100"> -->
+      <img src="/assets/idc.png" alt="Illinois Design Consulting" class="add-border rounded-lg">
+      <!-- <img src="/assets/idc-screen.png" alt="Illinois Design Consulting" class="rounded-lg bg-gray-100"> -->
     </div>
     <div>
       <div class="flex">
-        <img class="logo-main-img mr-2" src="../assets/idc_logo.jpeg">
+        <img class="logo-main-img mr-2" src="/assets/idc_logo.jpeg">
         <h2 class="text-3xl header-main-text tracking-tight text-gray-900 sm:text-4xl">Illinois Design Consulting Website</h2>
       </div>
       <p class="reg-text-main mt-4 text-gray-500">
@@ -82,7 +70,7 @@
 
         <div class="border-t border-gray-200 pt-4">
           <dt class="reg-text-main text-gray-500" id="bolder-text">Team</dt>
-          <dd class="reg-text-main mt-2 text-sm text-gray-500">Allison Oh </br> Angeline Mendez <br/> June Chun <br/> Kiran Pillai <br/> Emaan Kashif <br/> Anika Solapurkar</dd>
+          <dd class="reg-text-main mt-2 text-sm text-gray-500">Allison Oh  Angeline Mendez <br/> June Chun <br/> Kiran Pillai <br/> Emaan Kashif <br/> Anika Solapurkar</dd>
         </div>
 
         <div class="border-t border-gray-200 pt-4">
@@ -128,7 +116,7 @@
           <br/><br/>
           <p class="reg-text-main text-gray-500" id="bolder-text">We had three main takeaways from my team's analysis!</p> 
           <br/><br/>   
-      </p>
+      
       <div class="px-8">
         <ul class="a reg-text-main pb-8 accent-style">
           <li class="pb-5">
@@ -145,7 +133,7 @@
         </ul> 
       </div>
       <div class="flex justify-center">
-      <img src="../assets/idc-comp-analysis.png" alt="Competitor Analysis of other websites similar to Illinois Design Consulting" class="rounded-lg mt-10">
+      <img src="/assets/idc-comp-analysis.png" alt="Competitor Analysis of other websites similar to Illinois Design Consulting" class="rounded-lg mt-10">
       </div>
       
       
@@ -166,12 +154,11 @@
               <li>Opportunities</li>
               <li>General Problems</li>
             </ul> 
-          </p>
         </div>
     
         <div>
-          <img src="../assets/ideate-idc.png" alt="Illinois Design Consulting" class="modal-style mb-5 rounded-lg bg-gray-100" id="modal-img">
-          <img src="../assets/ideate-idc2.png" alt="Illinois Design Consulting" class="modal-style mb-5 rounded-lg bg-gray-100" id="modal-img2">
+          <img src="/assets/ideate-idc.png" alt="Illinois Design Consulting" class="modal-style mb-5 rounded-lg bg-gray-100" id="modal-img">
+          <img src="/assets/ideate-idc2.png" alt="Illinois Design Consulting" class="modal-style mb-5 rounded-lg bg-gray-100" id="modal-img2">
           
           <!-- The Modals -->
           <div id="img-modal" class="modal">
@@ -190,7 +177,7 @@
         <p class="reg-text-main mt-4 text-gray-500 "> 
           I conducted user interviews with IDC members to understand their needs and pain points. I also conducted user interviews with non-members to get an outside perspective of what the website could potentially include.
           <br/><br/>Interviews were also conducted with IDC staff members to understand what exactly could a staff member or client could benefit from the website.<br/><br/>
-          <p class="reg-text-main text-gray-500" id="bolder-text">Some of the main takeaways from the user interviews were:</strong> <br/><br/>
+          <p class="reg-text-main text-gray-500" id="bolder-text">Some of the main takeaways from the user interviews were: <br/><br/>
         </p>
         <ul class="a reg-text-main text-gray-500">
           <li>There was a lack of community shown on the website.</li>
@@ -199,7 +186,7 @@
         </ul> 
       </div>
       <div>
-        <img src="../assets/idc-4.png" alt="Illinois Design Consulting" class="mb-5 rounded-lg">
+        <img src="/assets/idc-4.png" alt="Illinois Design Consulting" class="mb-5 rounded-lg">
       </div>
       </div>
         
@@ -211,7 +198,7 @@
         representative of the University of Illinois, and that it was also visually appealing to the user. <br/><br/>        
       </p>
       <div class="flex justify-center">
-      <img src="../assets/Typography_IDC.png" alt="Illinois Design Consulting" class="rounded-lg">
+      <img src="/assets/Typography_IDC.png" alt="Illinois Design Consulting" class="rounded-lg">
     </div>
 
       <!-- Design Process: Learnings + Reflections -->
@@ -226,11 +213,11 @@
             I felt as if though everytime we gave feedback, I came out with more insights on creating a new version 
           of an interview question or story map, which helped interviews run so much more smoother!  </li>
         </ul> 
-      </p>
   </div>
 </div>
+</div>
 <div class="mt-10 flex">
-  <a href="../design.html">
+  <a href="/design">
     <h4 class="text-style-back">↙ designs ✧ ˚ · .</h4>
   </a>
 </div>

@@ -9,12 +9,12 @@
       <!-- ABOUT BLURB -->
       <div class="flex flex-col items-center lg:items-start lg:flex-row mb-10">
         <div>
-        <img alt="Ellie's profile picture" class="w-90 md:w-80 rounded-lg" src="./assets/about_ellie.JPG">
+        <img alt="Ellie's profile picture" class="w-90 md:w-80 rounded-lg" src="/assets/about_ellie.JPG">
         <div class="flex flex-col mt-4 md:w-80">
           <h2 class="b">My top songs of 2022 
-            </br> — Jan and Dec! +*.｡(❁´◡`❁)｡.+* </h2>
-          <img alt="Music player Taylor swift gif" class="rounded-lg mt-4 border-2 border-red-200" src="./assets/jan2022_music.gif">
-          <img alt="Music player NIKI gif" class="rounded-lg mt-4 border-2 border-indigo-200" src="./assets/dec2022_music.gif">
+           — Jan and Dec! +*.｡(❁´◡`❁)｡.+* </h2>
+          <img alt="Music player Taylor swift gif" class="rounded-lg mt-4 border-2 border-red-200" src="/assets/jan2022_music.gif">
+          <img alt="Music player NIKI gif" class="rounded-lg mt-4 border-2 border-indigo-200" src="/assets/dec2022_music.gif">
           <iframe style="border-radius:10px; margin-top:16px" src="https://open.spotify.com/embed/playlist/4rpa6cJaNWzXu4MKbOT5Oi?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
       </div>
@@ -25,11 +25,11 @@
           <p class="reg-text-main mr-2 mt-5">
             My name's Ellie Popoca, but you sometimes might see me as Estrella! (Star in English!) My pronouns are <span id="bolder-text">she/her</span> and <span id="bolder-text">they/them</span>! I'm a junior at UIUC, studying 
             information sciences with a minor in game studies and design! :sparkles: I'm passionate about social good, tech, and hackathons! 
-          </br><br/>
+     
             I care TONS about providing education opportunties to everyone! 👩🏽‍💻 Look at some of the stuff I'm working on below! I'm pretty invested
             in all things tech + of course, some fun stuff here and there!✨
           </p>
-        </br></br>
+   
         <div class="flex flex-row">
           <span class="mr-2">📍</span><p class="reg-text-main" id="bolder-text"> 
             Spring 2023: Where I'm traveling to next!
@@ -50,7 +50,7 @@
       
       <!-- END ABOUT BLURB -->
       <div class="flex justify-center">
-        <img class="w-60 mb-4 mt-2" alt="Arrow pointing down" src="./assets/arrow_down.png">
+        <img class="w-60 mb-4 mt-2" alt="Arrow pointing down" src="/assets/arrow_down.png">
       </div>
 
 
@@ -58,7 +58,7 @@
 
       <!-- 'CURRENTLY' SECTION -->
       <div class="flex justify-center mb-10">
-        <img class="logo-sub-img mr-2"alt="happy emoticon" src="./assets/2.png">
+        <img class="logo-sub-img mr-2"alt="happy emoticon" src="/assets/2.png">
         <h2 class="a">Currently...</h2>
       </div>
 
@@ -104,12 +104,12 @@
 
 
       <div class="flex justify-center">
-        <img class="w-60 mb-4 mt-2" alt="Arrow pointing down" src="./assets/arrow_down.png">
+        <img class="w-60 mb-4 mt-2" alt="Arrow pointing down" src="/assets/arrow_down.png">
       </div>
 
       <!-- 'BLOG' SECTION -->
       <div class="flex justify-center my-10">
-        <img class="logo-sub-img mr-4"alt="happy emoticon" src="./assets/1.png">
+        <img class="logo-sub-img mr-4"alt="happy emoticon" src="/assets/1.png">
         <h2 class="a">I write sometimes :0</h2>
       </div>
 
@@ -132,7 +132,7 @@
       <div class="hidden sm:block sm:basis-56">
         <img
           alt="Ellie standing in front of a HackGT stage"
-          src="./assets/blog_1.JPG"
+          src="/assets/blog_1.JPG"
           class="aspect-square h-full w-full object-cover"
         />
       </div>
@@ -179,7 +179,7 @@
     <div class="hidden sm:block sm:basis-56">
       <img
         alt="Ellie standing in front of a HackGT stage"
-        src="./assets/blog_hackgt.jpg"
+        src="/assets/blog_hackgt.jpg"
         class="aspect-square h-full w-full object-cover"
       />
     </div>

@@ -9,7 +9,7 @@
 
 
   <div class="flex justify-center flex-col xl:mx-60">
-    <h2 class="a flex justify-center mb-5 text-center">Welcome,</br> it's Ellie! </h2>
+    <h2 class="a flex justify-center mb-5 text-center">Welcome  it's Ellie! </h2>
     <div class="flex-row justify-evenly align-middle mx-12 md:grid grid-cols-2 gap-x-6">
       <div class="bg-transparent rounded-lg mt-4 border-4 border-purple-300">
         <h2>
@@ -20,6 +20,7 @@
         <h2>
           Coding projects
         </h2>
+        </div>
     </div>
     <div class="bg-transparent rounded-lg mt-4 border-4 border-purple-300">
       <h2>
@@ -30,4 +31,5 @@
       <h2>
         Guides, Resources, and more! 
       </h2>
+      </div>
 </div>
