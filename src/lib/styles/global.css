@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo&family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,600&family=Press+Start+2P&display=swap');
+
+html, body {
+    padding: 0;
+    background-color: #E7E6E6;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
