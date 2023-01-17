@@ -4,9 +4,9 @@
 <SEO title="Design Projects — Ellie's Page" />
 <!-- Title-->
 <div class="flex justify-center">
-    <img class="w-10 h-12"src="/assets/pinkbling.gif">
+    <img alt="pink blinking" class="w-10 h-12" src="/assets/pinkbling.gif">
     <h2 class="header-main-text code-proj">Design Projects</h2>
-    <img class="w-10 h-12"src="/assets/pinkbling.gif">
+    <img alt="pink blinking" class="w-10 h-12" src="/assets/pinkbling.gif">
 </div>
     <p class="reg-text-main flex justify-center">
     Check out my recent projects!
@@ -21,13 +21,13 @@
   <h2 class="design-cards-text">Illinois Design Consulting</h2>
   <div class="flex justify-center">
     <a href="/design/idc">
-    <img class="design-cards" src="/assets/idc.png">
+    <img alt=""class="design-cards" src="/assets/idc.png">
   </a>
   </div>
 
   <h2 class="design-cards-text">Wellapp</h2>
   <div class="flex justify-center max-w-full h-auto">
     <a href="/design/wellapp">
-    <img class="design-cards max-w-full h-auto" src="/assets/Wellapp.png">
+    <img alt="wellapp" class="design-cards max-w-full h-auto" src="/assets/Wellapp.png">
   </a>
   </div>

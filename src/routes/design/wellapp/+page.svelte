@@ -141,7 +141,7 @@
       <!-- The Modals -->
       <div id="img-modal" class="modal">
         <span class="close">&times;</span>
-        <img class="modal-content" id="img01">
+        <img alt="modal" class="modal-content" id="img01">
       </div>
       
     

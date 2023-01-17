@@ -2,7 +2,13 @@
 module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Unbounded: ['Unbounded', 'cursive'],
+        Sora: ['Sora', 'sans-serif'],
+        Shrikhand: ['Shrikhand', 'cursive'],
+    },
   },
   plugins: [],
+  }
 }

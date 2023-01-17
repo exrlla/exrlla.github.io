@@ -1,36 +1,5 @@
 <script>
   import SEO from '$lib/components/SEO.svelte';
-
-  /*
-    TODO: change to svelte style
-  */
-
-  // Modal Script for displaying images in larger width
-  // var modal = document.getElementById("img-modal");
-  
-  // Get the image and insert it inside the modal - use its "alt" text as a caption
-  // var img = document.getElementById("modal-img");
-  // var img2 = document.getElementById("modal-img2");
-  // var modalImg = document.getElementById("img01");
-  
-  // img.onclick = function(){
-  //   modal.style.display = "block";
-  //   modalImg.src = this.src;
-  // }
-
-  // img2.onclick = function(){
-  //   modal.style.display = "block";
-  //   modalImg.src = this.src;
-  
-  // }
-  
-  // Get the <span> element that closes the modal
-  // var span = document.getElementsByClassName("close")[0];
-  
-  // When the user clicks on <span> (x), close the modal
-  // span.onclick = function() { 
-  //   modal.style.display = "none";
-  // }
 </script>
 
 <SEO title="Illinois Design Consulting — Ellie's Page" />
@@ -40,8 +9,8 @@
 <!-- Illinois Design Consulting -->
 <div class="spacing-home-container">
   <div class="flex">
-    <a href="/design">
-      <h4 class="text-style-back">↙ go back to designs! ✧ ˚ · .</h4>
+    <a href="/projects">
+      <h4 class="font-Sora text-xl ml-10 text-red-400">↙ go back! ✧ ˚ · .</h4>
     </a>
   </div>
   
@@ -49,17 +18,16 @@
     <!-- Image -->
     <div class="grid sm:gap-6 lg:gap-8 mt-10">
       <img src="/assets/idc.png" alt="Illinois Design Consulting" class="add-border rounded-lg">
-      <!-- <img src="/assets/idc-screen.png" alt="Illinois Design Consulting" class="rounded-lg bg-gray-100"> -->
     </div>
     <div>
       <div class="flex">
-        <img class="logo-main-img mr-2" src="/assets/idc_logo.jpeg">
-        <h2 class="text-3xl header-main-text tracking-tight text-gray-900 sm:text-4xl">Illinois Design Consulting Website</h2>
+        <img alt="IDC" class="logo-main-img mr-2" src="/assets/idc_logo.jpeg">
+        <h2 class="font-Sora text-3xl text-gray-600 sm:text-4xl">Illinois Design Consulting Website</h2>
       </div>
       <p class="reg-text-main mt-4 text-gray-500">
         The Illinois Design Consulting Organization is under the College of Gies Business at Illinois, and as a Design 
         Consultant for the team, I contributed to creating the mockups, information architecture, and design for the website. 
-        The website is currently under construction but will be released on January 2023.
+        The website is currently under construction but will be released January 2023.
       </p>
 
       <dl class="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-2">
@@ -109,50 +77,54 @@
   <div class="px-8">
       
     <!-- Design Process: Competitor Analysis -->
-      <h3 class="text-3xl header-main-text tracking-tight text-gray-900 sm:text-4xl">research - competitor analyisis!</h3>
-      <p class="reg-text-main mt-4 text-gray-500">
+      <h3 class="font-Sora text-red-300 text-3xl mt-10 md:text-4xl">research - competitor analyisis! ✧</h3>
+      <p class="font-Sora mt-3 text-gray-500">
         I looked into the current Illinois Design Consulting website and analyzed its strengths and weaknesses of the website. 
         I also looked into other design consulting websites at other campuses' to see how they are designed and what they do well!
-          <br/><br/>
-          <p class="reg-text-main text-gray-500" id="bolder-text">We had three main takeaways from my team's analysis!</p> 
-          <br/><br/>   
+          <br/><br/><br>
+          <p class="font-Sora text-orange-400 text-xl">
+            We had three main takeaways from my team's analysis!</p> 
+          <br> 
       
-      <div class="px-8">
-        <ul class="a reg-text-main pb-8 accent-style">
+      <div class="">
+        <ul class="text-gray-600 font-Sora">
           <li class="pb-5">
-            Many of the design websites we looked at lacked and rather had their own established presence.
+          --> Many of the design websites we looked at lacked and rather had their own established presence.
             As a goal for the IDC Website, we want to increase the University of Illinois' branding. 
             We want to include the University of Illinois' branding and colors to make the website more recognizable.
           </li>
-          <li class="pb-5">We want to include community efforts to showcase the community in Illinois Design Consulting, and many of the design websites we looked at do 
+          <li class="pb-5">
+          --> We want to include community efforts to showcase the community in Illinois Design Consulting, and many of the design websites we looked at do 
             this well by providing images, community links, and blogs.
           </li>
-          <li>The three potential audiences IDC has is Students, Clients, and Staff. The competitor websites have different audiences they are reaching. For IDC, we wan't 
+          <li>
+          --> The three potential audiences IDC has is Students, Clients, and Staff. The competitor websites have different audiences they are reaching. For IDC, we wan't 
             to appeal to all three, and make sure that we include information for all of these audiences
             such as our portfolio, staff/student biographies, and client information.</li>
         </ul> 
       </div>
+
       <div class="flex justify-center">
       <img src="/assets/idc-comp-analysis.png" alt="Competitor Analysis of other websites similar to Illinois Design Consulting" class="rounded-lg mt-10">
       </div>
       
       
       <!-- Design Process: Ideate -->
-      <h3 class="text-3xl header-main-text gap-x-8 tracking-tight text-gray-900 sm:text-4xl">Ideate</h3>
+      <h3 class="text-3xl md:text-4xl font-Sora mt-10 gap-x-8 text-red-300 ">Ideate!</h3>
       
-      <div class="grid tracking-tight gap-y-10 mt-3 lg:max-w-sm lg:grid-cols-2 md:grid-cols-2 sm:gap-6 lg:gap-8">
+      <div class="grid gap-y-10 mt-3 md:grid-cols-2 sm:gap-6 lg:gap-8">
         <div>
-          <p class="reg-text-main mt-4 text-gray-500">
+          <p class="font-Sora mt-4 text-gray-500">
             Throughout the ideation process, the team and I created a mapping of different pages, branding, and keeping in mind our intended audience.
-            Our Team kept in mind 7 specific groupings in which we thought about areas to improve, and constraints we had with this particular task. <br/><br/>
+            <br><br>Our Team kept in mind 7 specific groupings in which we thought about areas to improve, and constraints we had with this particular task. <br/><br/>
             <ul class="a reg-text-main text-gray-500 pb-5">
-              <li>Pages</li>
-              <li>Branding Colors</li>
-              <li>Target Audience</li>
-              <li>UI Elements</li>
-              <li>Project Showcase</li>
-              <li>Opportunities</li>
-              <li>General Problems</li>
+              <li>> Pages</li>
+              <li>> Branding Colors</li>
+              <li>> Target Audience</li>
+              <li>> UI Elements</li>
+              <li>> Project Showcase</li>
+              <li>> Opportunities</li>
+              <li>> General Problems</li>
             </ul> 
         </div>
     
@@ -163,7 +135,7 @@
           <!-- The Modals -->
           <div id="img-modal" class="modal">
             <span class="close">&times;</span>
-            <img class="modal-content" id="img01">
+            <img alt="modal" class="modal-content" id="img01">
           </div>
         </div>
       </div>
