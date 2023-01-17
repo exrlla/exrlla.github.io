@@ -3,7 +3,7 @@
     export let project_image_link = "https://via.placeholder.com/150"
     export let project_description = "Project Description here, fill up with whatever you like! Wow this is big and long"
     export let project_date = "Sep 2023"
-    export let project_link = "/idc"
+    export let project_link = "/design/idc"
 </script>
 
     <div class="flex flex-col">
