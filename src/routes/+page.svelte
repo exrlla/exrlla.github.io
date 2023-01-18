@@ -18,21 +18,23 @@
 
 
 <SEO title="Ellie's Page" />
-<div class="mx-16 mt-20 md:mx-60 md:mt-40">
-  <h2 class="font-Sora text-6xl italic">Hi, I'm
+<div class="mx-16 mt-20 md:mx-60 md:mt-40 3xl:mx-80">
+  <div class="3xl:mx-60">
+    <h2 class="font-Sora text-6xl italic">Hi, I'm
     {#each [...'Ellie!!!'] as letter, i}
     <span class="font-Shrikhand text-7xl pl-1"
     style="{`color: ${colors[i % colors.length]}`}">{letter}</span>
     {/each}
-  </h2>
-  <h2 class="font-Sora text-2xl flex italic">I'm a &nbsp; <span class="text-orange-400">{attributes[timer % attributes.length]}</span> </h2>
+    </h2>
+    <h2 class="font-Sora text-2xl flex italic">I'm a &nbsp; <span class="text-orange-400">{attributes[timer % attributes.length]}</span> </h2>
+  </div>
 </div>
 
 
-<div class="flex flex-col mx-16 md:mx-60 md:mt-10">
+<div class="flex flex-col mx-16 md:mx-60 md:mt-10 3xl:mx-80">
   
   
-  <div class="lg:grid grid-cols-2 gap-6">
+  <div class="lg:grid grid-cols-2 gap-6 3xl:mx-60">
     <div class="bg-transparent hover:bg-orange-200 rounded-lg border-2 border-orange-300 mt-10 lg:mt-0">
       <a href="/mlh">
         <div class="mx-4 my-4 flex">
