@@ -9,7 +9,7 @@
 
     <div class="flex flex-col md:grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 md:justify-center">
         <ProjectCard
-        project_name="Leyden Consulting Website Redesign!"
+        project_name="Leyden Consulting Website Redesign"
         project_image_link="/assets/lca.gif"
         project_description="As a design consultant for IDC, I helped redesign our main website! Take a look at what we have built!"
         project_date="Dec 2022"
@@ -31,11 +31,11 @@
             project_link="/design/idc"
              />
 
-              <ProjectCard
+        <ProjectCard
               project_name="Illinois Design Consulting Website Redesign!"
               project_image_link="/assets/idc.png"
               project_description="As a design consultant for IDC, I helped redesign our main website! Take a look at what we have built!"
-               />
+                />
         </div>
 </div>
 

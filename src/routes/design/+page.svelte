@@ -5,16 +5,16 @@
 <!-- Title-->
 <div class="flex justify-center">
     <img alt="pink blinking" class="w-10 h-12" src="/assets/pinkbling.gif">
-    <h2 class="header-main-text code-proj">Design Projects</h2>
+    <h2 class="font-Sora text-4xl text-red-300">Design Projects</h2>
     <img alt="pink blinking" class="w-10 h-12" src="/assets/pinkbling.gif">
 </div>
-    <p class="reg-text-main flex justify-center">
+    <p class="font-Sora flex justify-center">
     Check out my recent projects!
 </p>
     
-<p class="reg-text-main flex justify-center">Looking for code? Check out</p>
+<p class="font-Sora flex justify-center">Looking for code? Check out</p>
 <a href="code" class="flex justify-center mt-3">
-    <button class="reg-text-main bg-white rounded-lg px-10 py-2">Code!</button>
+    <button class="font-Sora bg-orange-300 text-white rounded-lg px-10 py-2">Code!</button>
   </a>
 
   <!-- IDC Card -->

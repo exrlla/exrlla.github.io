@@ -22,7 +22,7 @@
         <h2 class="a">
           Heyoo!!!! 🏄🏻‍♀️
         </h2>
-        <p class="reg-text-main mr-2 mt-5">
+        <p class="font-Sora text-gray-600 mr-2 mt-5">
           My name's Ellie Popoca, but you sometimes might see me as Estrella! (Star in English!) My pronouns are <span id="bolder-text">she/her</span> and <span id="bolder-text">they/them</span>! I'm a junior at UIUC, studying 
           information sciences with a minor in game studies and design! :sparkles: I'm passionate about social good, tech, and hackathons! 
           <br><br>
@@ -31,16 +31,16 @@
         </p>
     
         <div class="flex flex-row">
-          <span class="mr-2">📍</span><p class="reg-text-main" id="bolder-text"> 
+          <span class="mr-2">📍</span><p class="font-Sora" id="bolder-text"> 
           Spring 2023: Where I'm traveling to next!
           </p>
         </div>
         
-        <ul class="a ml-10 reg-text-main text-gray-500 mb-5 mt-2">
-          <li>Hacking for <span class="text-purple-300 underline decoration-indigo-300 decoration-wavy font-bold">BoilerMake</span>  @ Purdue University 🚂 </li>
-          <li>Attending <span class="text-purple-300 underline decoration-indigo-300 decoration-wavy font-bold">Harvard WeCode</span> @ Harvard University 🏫👩🏽‍💻</li>
-          <li>Coaching for <span class="text-purple-300 underline decoration-indigo-300 decoration-wavy font-bold">FronteraHacks</span></li>
-          <li>Hacking for <span class="text-purple-300 underline decoration-indigo-300 decoration-wavy font-bold">AthenaHacks</span> @ USC! </li>
+        <ul class="a ml-10 font-Sora text-gray-500 mb-5 mt-2">
+          <li>Hacking for <span class="text-violet-400 underline decoration-indigo-300 decoration-wavy font-bold">BoilerMake</span>  @ Purdue University 🚂 </li>
+          <li>Attending <span class="text-violet-400 underline decoration-indigo-300 decoration-wavy font-bold">Harvard WeCode</span> @ Harvard University 🏫👩🏽‍💻</li>
+          <li>Coaching for <span class="text-violet-400 underline decoration-indigo-300 decoration-wavy font-bold">FronteraHacks</span></li>
+          <li>Hacking for <span class="text-violet-400 underline decoration-indigo-300 decoration-wavy font-bold">AthenaHacks</span> @ USC! </li>
         </ul> 
       </div>
     </div>
@@ -59,7 +59,7 @@
       <div class="mx-10 my-10">
         <h3 class="font-Unbounded text-3xl text-orange-400">🌎 GOING PLACES</h3>
         <h2 class="b">@Jan, 2023 </h2>
-        <p class="reg-text-main mt-6">
+        <p class="font-Sora text-gray-500 mt-6">
           I'm so excited to be traveling to so many places in the Spring of 2023! I'll be attending <span class="text-purple-300 underline decoration-indigo-300 decoration-wavy font-bold">Harvard WeCode</span> 
           at Harvard University, <span class="text-purple-300 underline decoration-indigo-300 decoration-wavy font-bold">BoilerMake</span> at Purdue University, and <span class="text-purple-300 underline decoration-indigo-300 decoration-wavy font-bold">AthenaHacks</span> at USC! 
           I'm also going to be coaching for <span class="text-purple-300 underline decoration-indigo-300 decoration-wavy font-bold">CruzHacks</span> at UC Santa Cruz and <span class="text-purple-300 underline decoration-indigo-300 decoration-wavy font-bold">Some Hackathon</span> at UT Dallas! 
@@ -73,7 +73,7 @@
       <div class="mx-10 my-10">
         <h3 class="font-Unbounded text-3xl text-orange-400">Organizing a Hackathon??!</h3>
         <h2 class="b">@Jan, 2023 </h2>
-        <p class="reg-text-main mt-6 ">
+        <p class="font-Sora text-gray-500 mt-6 ">
           I'm currently the hackathon lead for <span class="text-purple-300 underline decoration-indigo-300 decoration-wavy font-bold">WECEHacks @ UIUC</span>! I'm so excited to be working with an amazing team 
           to bring a hackathon to the UIUC community! We're planning to host the third iteration of WECEHacks in the Spring of 2023!
         </p>
@@ -85,7 +85,7 @@
       <div class="mx-10 my-10">
         <h3 class="font-Unbounded text-3xl text-orange-400">Designing for IDC — work work!</h3>
         <h2 class="b"> @Nov, 2022 </h2>
-        <p class="reg-text-main mt-6">
+        <p class="font-Sora text-gray-500 mt-6">
           Excited for meeting my new project team for IDC! Last semester, I was a design consultant for the website redesign, and hoping for what comes next!! 
           I can't wait to see what we come up with!
         </p>
