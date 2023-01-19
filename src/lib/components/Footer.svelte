@@ -9,4 +9,4 @@
   <div class="font-Sora flex justify-center text-red-400">
     <p>Made with ‎♡‧₊˚ by Ellie / <a class="underline"href="https://github.com/exrlla/exrlla.github.io">Source</a></p>
   </div>
-</footer>
+</footer> 
