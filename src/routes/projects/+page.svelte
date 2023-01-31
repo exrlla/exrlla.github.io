@@ -9,7 +9,7 @@
     <div class="flex flex-col sm:grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 md:justify-center">
         <ProjectCard
         project_name="Leyden Consulting Website Redesign"
-        project_image_link="/assets/LCA.gif"
+        project_image_link="/assets/leyden.gif"
         project_description="I worked with Peggy Leyden, Founder of Leyden Consulting Associates, to redesign her website! Learn about the process and 
         everything I changed from top to bottom."
         project_date="Dec 2022"
