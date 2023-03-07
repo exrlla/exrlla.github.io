@@ -7,10 +7,10 @@
 <div class="mx-10 md:mx-60">
     <img src="/assets/mlh.png" alt="Global Hack Week" class="w-20 mx-auto pb-4">
     <img src="/assets/ghw.png" alt="Global Hack Week" class="w-60 mx-auto pb-4">
-    <h1 class="flex justify-center font-Unbounded text-orange-300 text-2xl">Ellie's Resources</h1>
+    <h1 class="flex justify-center font-Unbounded text-purple-400 text-2xl">Ellie's Resources</h1>
     <img src="/assets/sparkle-1.svg" alt="line" class="w-10 mx-auto mt-6">
-    <div class="bg-orange-200 px-10 rounded-md mt-8 lg:mx-40">
-        <p class="font-Sora text-amber-600 text-sm pt-6 text-center leading-tight">
+    <div class=" px-10 rounded-md mt-8 lg:mx-40">
+        <p class="font-Sora text-purple-500 text-sm pt-6 text-center leading-tight">
             Hi! This is Ellie from MLH, your fave frontend/design coach!
             If you're an avid viewer for Global Hack Week, or just browsing around at some 
             of my content, welcome!!! I'm so glad you're here. 
@@ -21,6 +21,16 @@
             questions, feel free to reach out to me on Twitter or Discord! <br><br>
         </p>
     </div>
+    <img src="/assets/sparkle-1.svg" alt="line" class="w-10 mx-auto mt-6">
+    <GHWCard
+    month="Social Good Week"
+    description="Designing a Web App in Figma: Making an Accessible Application Part 1 "
+    slides=false
+    repo=false
+    documentation_link="https://ell-ie.notion.site/Designing-an-Accessible-Mobile-Application-in-Figma-Resources-and-Assets-5ac4ba92b0124d4e82f66a55f738554b"
+    stream_link=""
+    />
+
     <GHWCard
     description="Intro to UI/UX: Learn about the basics of UI/UX, UX Research, and more! Pre reqs: None"
     documentation=false

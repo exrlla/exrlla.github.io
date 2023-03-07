@@ -11,37 +11,37 @@
 </script>
 <div class="lg:flex flex-col items-center">
     <div class="lg:w-1/2">
-        <h1 class="flex justify-center font-Unbounded text-orange-400 mt-10 mb-1 text-2xl">
+        <h1 class="flex justify-center font-Unbounded text-indigo-700 mt-10 mb-1 text-2xl">
             GHW {month}
         </h1>
-        <h3 class="flex justify-center text-center font-Sora text-amber-600 mb-4">
+        <h3 class="flex justify-center text-center font-Sora text-violet-600 mb-4">
             {description}
         </h3>
     </div>
 
     <div class="flex flex-col gap-2 lg:w-60">
     {#if !slides}
-        <button class="rounded-md bg-blue-700 hover:bg-red-600 p-2">
+        <button class="rounded-md bg-indigo-500 hover:bg-red-600 p-2">
             <a class="text-white
             font-Sora"href="{slides_link}">Slides</a>
         </button>
     {/if}
 
     {#if !documentation}
-        <button class="rounded-md bg-blue-700 hover:bg-red-600 p-2">
+        <button class="rounded-md bg-indigo-500 hover:bg-red-600 p-2">
             <a class="text-white
             font-Sora"href="{documentation_link}">Documentation</a>
         </button>
     {/if}
 
     {#if !repo}
-        <button class="rounded-md bg-blue-700 hover:bg-red-600 p-2">
+        <button class="rounded-md bg-indigo-400 hover:bg-red-600 p-2">
             <a class="text-white
             font-Sora"href="{repo_link}">Repo</a>
         </button>
     {/if}
 
-    <button class="rounded-md bg-blue-700 hover:bg-red-600 p-2">
+    <button class="rounded-md bg-indigo-300 hover:bg-red-600 p-2">
         <a class="text-white
         font-Sora"href="{stream_link}">The Stream!</a>
     </button>
