@@ -7,6 +7,7 @@ module.exports = {
         Unbounded: ['Unbounded', 'cursive'],
         Sora: ['Sora', 'sans-serif'],
         Shrikhand: ['Shrikhand', 'cursive'],
+        Inter: ['Inter', 'sans-serif'],
     },
   },
   plugins: [],

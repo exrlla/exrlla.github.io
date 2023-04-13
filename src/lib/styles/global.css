@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,600&family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&family=Sora&family=Unbounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -13,7 +14,7 @@
 
 html, body {
     padding: 0;
-    background-color: #fae1e1;
+    background-color: #EFEADC;
     width: 100%;
     overflow-x: hidden;
   }
