@@ -18,6 +18,7 @@
 
 
 <SEO title="Ellie's Page" />
+
 <!-- the header title-->
 <section class="mx-16 md:mx-60 3xl:mx-80">
   <div class="3xl:mx-60">
@@ -128,5 +129,3 @@
   </div>
 </div> -->
 
-
-  
