@@ -5,6 +5,8 @@
 </script>
 <main>
 	<Nav />
+
 	<slot />
+
 	<Footer />
 </main>

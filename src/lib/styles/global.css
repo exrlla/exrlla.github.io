@@ -3,8 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,600&family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&family=Sora&family=Unbounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&family=DM+Sans&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -13,7 +14,7 @@
 
 html, body {
     padding: 0;
-    background-color: #fae1e1;
+    background-color: #e3f3c8;
     width: 100%;
     overflow-x: hidden;
   }
@@ -141,16 +142,9 @@ html, body {
   }
   
   .org-color-text {
-    color: #f58e52;
+    color: #f15b29;
     
   }
-  
-  /* .reg-text-main {
-    text-decoration: none;
-    font-family:'Sora', sans-serif;
-    font-size: 17px;
-    color: #6b6b6b;
-  } */
   
   .home-text-main {
     text-decoration: none;
