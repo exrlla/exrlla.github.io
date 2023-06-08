@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&family=Sora&family=Unbounded&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&family=DM+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Space+Grotesk:wght@400;600&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,7 +14,7 @@
 
 html, body {
     padding: 0;
-    background-color: #e3f3c8;
+    background: linear-gradient(#202b5d, #1A5678);
     width: 100%;
     overflow-x: hidden;
   }
@@ -142,7 +142,7 @@ html, body {
   }
   
   .org-color-text {
-    color: #f15b29;
+    color: #c4e5e8;
     
   }
   

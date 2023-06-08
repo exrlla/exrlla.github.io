@@ -8,6 +8,8 @@ module.exports = {
         Sora: ['Sora', 'sans-serif'],
         Shrikhand: ['Shrikhand', 'cursive'],
         Almarai: ['Almarai', 'sans-serif'],
+        Rubik: ['Rubik', 'sans-serif'],
+        SpaceGrotesk: ['Space Grotesk', 'sans-serif'],
     },
   },
   plugins: [],
