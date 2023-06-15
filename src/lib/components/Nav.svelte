@@ -7,5 +7,6 @@
       <li><a class="org-color-text hvr-float" href="/about">about</a></li>
       <li><a class="org-color-text hvr-float" href="https://drive.google.com/file/d/1_I-QbZ20EibbFUCOnsnILqTBThV9O_Nm/view?usp=sharing">resume</a></li>
       <li><a class="org-color-text hvr-float" href="/projects">projects</a></li>
+      
   </nav>
 </header>
