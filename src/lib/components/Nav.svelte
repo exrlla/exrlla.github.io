@@ -1,4 +1,4 @@
-<header class="header-main">
+<!-- <header class="header-main">
   <a href="/">
     <img alt="Ellie Popoca" class="hrv float w-60 rounded-lg pt-10" src="/assets/sparkles.gif">
   </a>
@@ -9,4 +9,4 @@
       <li><a class="org-color-text hvr-float" href="/projects">projects</a></li>
       
   </nav>
-</header>
+</header> -->

@@ -1,4 +1,4 @@
-<footer class="a mt-10 pt-10">
+<!-- <footer class="a mt-10 pt-10">
   <div class="flex justify-center gap-2 mb-2">
     <a href="https://github.com/exrlla"><img class="hover:bg-orange-200 w-6"alt="github" src="/assets/github.svg"></a>
     <a href="https://linkedin.com/in/elliepopoca"><img class="hover:bg-orange-200 w-6"alt="linkedin" src="/assets/linkedin.svg"></a>
@@ -9,4 +9,4 @@
   <div class="font-SpaceGrotesk flex justify-center text-red-400">
     <p>Made with ‎♡‧₊˚ by Ellie / <a class="underline"href="https://github.com/exrlla/exrlla.github.io">Source</a></p>
   </div>
-</footer> 
+</footer>  -->
