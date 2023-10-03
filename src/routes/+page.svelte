@@ -183,7 +183,7 @@
             and <a class="text-pink-500 underline" href="https://arc.net/">arc browser</a>, my favorite piece of tech to date. 
             <br />
             <br />
-            Feel free to take a look around my site, and explore all of the projects I have been working on! I'm currently looking for PM roles for Summer 2024!
+            Feel free to take a look around my site, and explore all of the projects I have been working on! I'm currently looking for PM, Game Design, and Software roles for Summer 2024!
           </p>
           <img class="h-48 ml-14 rounded-md mt-4" alt="" src="https://steamuserimages-a.akamaihd.net/ugc/2022727520904620554/853E1F4F183C371B70DEC9F23970CE0A1AD35C00/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true">
           <a href="https://www.codedex.io/projects/deploy-a-website-with-vercel">
@@ -238,7 +238,7 @@
             <br />
             🪐 <strong>Hackathon Coach — Major League Hacking (MLH) </strong>
             <br />
-            Attended events all over the country to help hackathon organizers and meet hackers! Coached for HackKU, HackGT9 @ Georgia Tech, and Uncommon Hacks @ UChicago! 
+            Attended events all over the country to help hackathon organizers and meet hackers! Coached for HackKU, HackGT9 @ Georgia Tech, and Uncommon Hacks @ UChicago! I also taught some fun topics during Global Hack Week @ MLH, like Unreal Engine, UI/UX, Frontend Development, and more! 
             <br />
             <br />
             🎙️ <strong>Web Designer — TEDxUIUC </strong>
