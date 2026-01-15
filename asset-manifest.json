@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.82273f8a.css",
+    "main.js": "/static/js/main.30380ab0.js",
+    "static/media/sky-with-lot-noise.jpg": "/static/media/sky-with-lot-noise.87a682bb688dc8d0169e.jpg",
+    "index.html": "/index.html",
+    "main.82273f8a.css.map": "/static/css/main.82273f8a.css.map",
+    "main.30380ab0.js.map": "/static/js/main.30380ab0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82273f8a.css",
+    "static/js/main.30380ab0.js"
+  ]
+}
