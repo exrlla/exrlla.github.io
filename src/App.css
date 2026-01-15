@@ -1,0 +1,16 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem 2rem 2rem 4rem;
+  width: 80%;
+  margin-left: 20%;
+  position: relative;
+  z-index: 10;
+  overflow-y: auto;
+  height: 100vh;
+}

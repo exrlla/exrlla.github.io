@@ -1,0 +1,55 @@
+.discord-status-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.discord-status-text {
+  font-size: 0.875rem;
+  color: #333;
+  font-weight: 500;
+  text-transform: lowercase;
+  font-family: "OpenRunde", sans-serif;
+}
+
+.discord-status-bubble {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.discord-status-bubble.discord-status-loading {
+  opacity: 0.5;
+  animation: pulse 1s ease-in-out infinite;
+}
+
+.discord-status-online {
+  background-color: #23a55a;
+}
+
+.discord-status-idle {
+  background-color: #f0b232;
+}
+
+.discord-status-dnd {
+  background-color: #f23f43;
+}
+
+.discord-status-offline {
+  background-color: #80848e;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}

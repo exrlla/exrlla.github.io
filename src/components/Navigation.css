@@ -1,0 +1,167 @@
+.navigation {
+  width: 20%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.nav-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  height: 100%;
+  border-radius: 0.75rem;
+  position: relative;
+}
+
+.nav-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('/images/sky-with-lot-noise.jpg');
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  border-radius: 0.75rem;
+  z-index: -1;
+  transition: opacity 0.3s ease;
+}
+
+.nav-container:hover::before {
+  opacity: 0.4;
+}
+
+.nav-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  transition: opacity 0.3s ease;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.nav-logo-text {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 3rem;
+  line-height: 1;
+  text-align: center;
+}
+
+.nav-logo:hover {
+  opacity: 0.7;
+}
+
+.nav-logo-image {
+  max-width: 100%;
+  height: auto;
+  max-height: 60px;
+  object-fit: contain;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 1.5rem;
+  font-size: 1.2rem;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  font-family: "OpenRunde", sans-serif;
+}
+
+.nav-links a:hover {
+  color: #111184;
+}
+
+.nav-links a.active {
+  color: #111184;
+}
+
+.nav-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  margin-top: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.social-icon {
+  color: #666;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icon:hover {
+  color: #333;
+}
+
+.social-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 768px) {
+  .navigation {
+    width: 25%;
+  }
+
+  .main-content {
+    width: 75%;
+    margin-left: 25%;
+  }
+
+  .nav-container {
+    gap: 1rem;
+  }
+
+  .nav-links {
+    gap: 1rem;
+  }
+}

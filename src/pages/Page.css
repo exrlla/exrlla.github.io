@@ -1,0 +1,34 @@
+.page {
+  padding: 2rem 0;
+  font-family: "OpenRunde", sans-serif;
+}
+
+.home-container {
+  display: flex;
+  width: 100%;
+  position: relative;
+  gap: 2rem;
+}
+
+.home-container .page {
+  flex: 1;
+  min-width: 0;
+}
+
+.page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  font-family: "OpenRunde-Bold", sans-serif;
+}
+
+.page-content {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  font-family: "OpenRunde", sans-serif;
+}
+
+.page-content p {
+  margin-bottom: 1rem;
+  font-family: "OpenRunde", sans-serif;
+}

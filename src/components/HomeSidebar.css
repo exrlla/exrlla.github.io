@@ -1,0 +1,99 @@
+.home-sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 20%;
+  min-width: 250px;
+  height: 100vh;
+  padding: 2rem 1.5rem 2rem 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  z-index: 50;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.sidebar-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+  margin-left: auto;
+  display: block;
+  border-radius: 0.75rem;
+}
+
+.sidebar-content {
+  width: 100%;
+  max-width: 300px;
+  text-align: right;
+}
+
+.sidebar-title {
+  font-family: "OpenRunde-Bold", sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+  text-align: right;
+  color: #5a5a5a;
+}
+
+.sidebar-description {
+  font-family: "OpenRunde", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.3;
+  margin-bottom: 2rem;
+  text-align: right;
+  color: #999;
+}
+
+.sidebar-description a {
+  color: #efa448;
+}
+
+.sidebar-item {
+  margin-bottom: 2rem;
+  text-align: right;
+}
+
+.sidebar-image {
+  width: 240px;
+  height: 130px;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+  margin-left: auto;
+  display: block;
+  border-radius: 0.75rem;
+}
+
+.sidebar-caption {
+  font-family: "OpenRunde", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.3;
+  margin-bottom: 0.5rem;
+  text-align: right;
+  color: #999;
+}
+
+.sidebar-button {
+  font-family: "OpenRunde", sans-serif;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: 1px solid #999;
+  border-radius: 0.5rem;
+  color: #999;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+  text-align: right;
+  margin-left: auto;
+  display: block;
+}
+
+.sidebar-button:hover {
+  background-color: #999;
+  color: #fff;
+}
